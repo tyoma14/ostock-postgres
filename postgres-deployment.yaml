@@ -20,7 +20,7 @@ spec:
               value: postgres
             - name: POSTGRES_PASSWORD
               value: postgres
-          image: zheltyshevas/ostock-postgres:0.0.1
+          image: zheltyshevas/ostock-postgres:0.0.2
           name: database
           ports:
             - containerPort: 5432
